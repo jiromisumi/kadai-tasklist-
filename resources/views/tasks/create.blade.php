@@ -9,7 +9,11 @@
         {!! Form::label('content', 'メッセージ:') !!}
         {!! Form::text('content') !!}
 
-        {!! Form::submit('投稿') !!}
+        {!! Form::label('status', 'ステータス:') !!}
+        {!! Form::text('status') !!}
+
+
+        {!! Form::submit('追加') !!}
 
     {!! Form::close() !!}
     
